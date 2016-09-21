@@ -10,4 +10,4 @@ This is what the driver looks for to determine if the app is running Cake 2.x.
 
 2. Copy the CakePHP 2.x valet driver into your Valet Drivers directory
 
-`cp Cakephp2ValetDriver.php ~/.valet/Drivers
+`cp Cakephp2ValetDriver.php ~/.valet/Drivers`
