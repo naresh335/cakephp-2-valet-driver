@@ -46,6 +46,7 @@ class Cakephp2ValetDriver extends ValetDriver
      */
     public function frontControllerPath($sitePath, $siteName, $uri)
     {
+        $_SERVER['PHP_SELF'] = $_SERVER['HTTP_HOST'];
         return $sitePath.'/app/webroot/index.php';
     }
 }
